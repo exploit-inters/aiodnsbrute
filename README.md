@@ -17,6 +17,11 @@ Right now the script just uses the system's DNS resolvers. I'll be adding a feat
 If you don't use `pipsi`, you're missing out.
 Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
 
+# Easy Install
+```
+python3 -m pip install asyncio aiodns click uvloop
+```
+
 ## Debian/Kali/Ubuntu
 
 The following should get you up and running.
